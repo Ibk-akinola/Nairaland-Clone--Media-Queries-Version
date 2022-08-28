@@ -9,8 +9,9 @@ body {
     box-sizing: border-box;
     font-size: 16px;
     text-align: center;
-    margin-left: 225px;
-    margin-right: 225px;
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 a {
@@ -166,52 +167,31 @@ input[name="profile-update"] {
     margin-top: 10px;
 }
 
-@media (min-width: 1500px) {
-    body {
-        margin-left: max(250px, 400px);
-        margin-right: max(250px, 400px);
-    }
-}
-
-@media (max-width: 1375px) {
-    body {
-        margin-left: 125px;
-        margin-right: 125px;
-    }
-}
-
-@media (max-width: 1250px) {
-    body {
-        margin-left: 125px;
-        margin-right: 125px;
-    }
-}
-
 @media (max-width: 1000px) {
     body {
-        margin-left: 100px;
-        margin-right: 100px;
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     body {
-        margin-left: 75px;
-        margin-right: 75px;
+        width: 83%;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 600px) {
     body {
-        margin-left: 60px;
-        margin-right: 60px;
+        width: 85%;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 500px) {
     body {
-        margin-left: 50px;
-        margin-right: 50px;
+        width: 90%;
+        margin: 0 auto;
     }
     input[name="pagesearch"],
     input[type="text"] {
@@ -221,7 +201,7 @@ input[name="profile-update"] {
 
 @media (max-width: 450px) {
     body {
-        margin-left: 5px;
-        margin-right: 5px;
+        width: 95%;
+        margin: 0 auto;
     }
 }
